@@ -6,7 +6,6 @@
     --Very-Light-blue: #ECF2FF;
     --White: #FFF;
     --Light-Blue: #CAC9FF;
-    --White: #FFF;
     --Dark-Navy: #303B59;
 }
 
@@ -17,18 +16,14 @@
 
 body {
     background: var(--Very-Light-blue);
+    display: flex;
+    justify-content: center;
 }
 
 main {
     width: 375px;
     height: 809px;
     background: var(--White);
-    margin: auto;
-}
-
-section {
-    height: 453px;
-    width: 375px;
 }
 
 header {
@@ -45,7 +40,6 @@ header {
 p#your {
     color: var(--Light-Blue);
     text-align: center;
-    font-feature-settings: 'liga' off, 'clig' off;
     font: normal 700 18px "Hanken Grotesk", sans-serif;
     padding-top: 24px;
 }
@@ -66,14 +60,12 @@ div {
 p#numero {
     color: var(--White);
     text-align: center;
-    font-feature-settings: 'liga' off, 'clig' off;
     line-height: 72px;
     font: normal 800 56px "Hanken Grotesk", sans-serif; 
 }
 
 p#numero-transparente {
     color: var(--Light-Blue);
-    font-feature-settings: 'liga' off, 'clig' off;
     font: normal 700 16px "Hanken Grotesk", sans-serif;
     opacity: 0.5168;
 }
@@ -81,7 +73,6 @@ p#numero-transparente {
 h1 {
     color: var(--White);
     text-align: center;
-    font-feature-settings: 'liga' off, 'clig' off;
     font: normal 700 24px "Hanken Grotesk", sans-serif;
     margin-top: 24px;
 }
@@ -90,7 +81,6 @@ P#text {
     width: 260px;
     color: var(--Light-Blue);
     text-align: center;
-    font-feature-settings: 'liga' off, 'clig' off;
     font: normal 500 16px "Hanken Grotesk", sans-serif;
     margin: auto;
     margin-top: 8px;
@@ -99,7 +89,6 @@ P#text {
 
 p#summary {
     color: var(--Dark-Navy);
-    font-feature-settings: 'liga' off, 'clig' off;
     font: normal 700 18px "Hanken Grotesk", sans-serif;
     margin-top: 24px;
     margin-bottom: 24px;
@@ -115,7 +104,6 @@ p#summary {
 }
 
 p.igual {
-    font-feature-settings: 'liga' off, 'clig' off;
     font: normal 500 16px "Hanken Grotesk", sans-serif;
 }
 
@@ -163,7 +151,6 @@ img {
 p.num {
     color: var(--Dark-Navy);
     text-align: right;
-    font-feature-settings: 'liga' off, 'clig' off;
     font: normal 700 16px "Hanken Grotesk", sans-serif;
     margin-right: 8px;
 }
@@ -191,7 +178,6 @@ button:hover {
 p#button {
     color: var(--White);
     text-align: right;
-    font-feature-settings: 'liga' off, 'clig' off;
     text-align: center;
     font: normal 700 18px "Hanken Grotesk", sans-serif;
 }
