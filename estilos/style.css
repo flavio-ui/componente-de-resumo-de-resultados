@@ -26,6 +26,11 @@ main {
     margin: auto;
 }
 
+section {
+    height: 453px;
+    width: 375px;
+}
+
 header {
     transition: height.8s;
     overflow: hidden;
