@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 499px) {
+    body {
+       justify-content: left;
+    }
+}
