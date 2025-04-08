@@ -1,11 +1,19 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 450px) {
     main {
-      width: 100vw;
+      width: 410px;
     }
 
     header {
-        width: 100vw;
+        width: 410px;
+    }
+
+    p#summary {
+        margin-left: 51px;
+    }
+
+    button {
+        margin-left: 51px;
     }
 }

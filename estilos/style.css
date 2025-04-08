@@ -21,7 +21,7 @@ body {
 }
 
 main {
-    width: 395px;
+    width: 375px;
     height: 809px;
     background: var(--White);
 }
@@ -30,7 +30,7 @@ header {
     transition: height.8s;
     overflow: hidden;
     transition-timing-function: ease;
-    width: 395px;
+    width: 375px;
     height: 356px;
     border-radius: 0px 0px 32px 32px;
     background: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
