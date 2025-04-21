@@ -6,9 +6,9 @@
   <title>Frontend Mentor | Results summary component</title>
   <link rel="stylesheet" href="estilos/style.css" media="all">
   <link rel="stylesheet" href="estilos/desktop.css">
-  <link rel="stylesheet" href="estilos/mobile.css">
+  <link rel="stylesheet" href="estilos/celula.css">
 </head>
-<body>
+<body onload="carregar()">
   <main>
     <header>
       <p id="your">Your Result</p>
@@ -28,30 +28,30 @@
       <p id="summary">Summary</p>
       
       <div class="campo-1 div">
-        <img src="images/icon-reaction.svg" alt="icon reaction">
-        <p class="reaction igual">Reaction</p>
-        <p class="num">80</p>
+        <img class="rea" src="images/icon-reaction.svg" alt="icon reaction">
+        <p class="reaction igual"></p>
+        <p class="n8 num"></p>
         <p class="num num2">/ 100</p>
       </div>
       
       <div class="campo-2 div">
         <img src="images/icon-memory.svg" alt="icon memory">
         <p class="memory igual">Memory</p>
-        <p class="num">92</p>
+        <p class="n9 num"></p>
         <p class="num num2">/ 100</p>
       </div>
 
       <div class="campo-3 div">
         <img src="images/icon-verbal.svg" alt="icon verbal">
         <p class="verbal igual">Verbal</p>
-        <p class="num">61</p>
+        <p class="n6 num"></p>
         <p class="num num2">/ 100</p>
       </div>
 
       <div class="campo-4 div">
         <img src="images/icon-visual.svg" alt="icone visual">
         <p class="visual igual">Visual</p>
-        <p class="num">72</p>
+        <p class="n7 num"></p>
         <p class="num num2">/ 100</p>
       </div>
 
@@ -60,5 +60,7 @@
       </button>
     </section>
   </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
